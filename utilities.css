@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+:root{
+    --nunito:'Nunito Sans';
+    --merriweather:'Merriweather Sans';
+    --white-900:#ffffff;
+    --shadow: 0 0 10px rgb(0 0 0 / 30%);
+    
+}
+body{
+    background-color:var(--body-color);
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-item-center{
+   align-items: center;
+}
+
+.menu{
+    width: 40%;
+}
+.logo{
+    width: 20%;
+}
+.contact{
+    width: 40%;
+}
+.w-25{
+    width: 25%;
+    padding: 12px;
+}
+.w-20{
+    width: 20%;
+    padding: 12px;
+}
+.find{
+    width: 50%;
+}
+.listing{
+     width: 50%;
+}
+.w-33{
+    width: 33.33%;
+    padding: 12px;
+}
+.w-50{
+    width: 50%;
+    padding: 12px;
+}
+.w-45{
+    width: 45%;
+    padding: 12px;
+}
